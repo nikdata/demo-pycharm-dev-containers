@@ -1,11 +1,11 @@
 {
     "name": "demo Pycharm Dev Container",
     "build": "./dockerfile",
-    "context": ".",
-    "forwardPorts": [8888],
-    "8888": {
-        "label": "Jupyter",
-        "requireLocalPort": true,
-        "onAutoForward": "ignore"
-    }
+    "context": "."
+    // "forwardPorts": [8888],
+    // "8888": {
+    //     "label": "Jupyter",
+    //     "requireLocalPort": true,
+    //     "onAutoForward": "ignore"
+    // }
 }
