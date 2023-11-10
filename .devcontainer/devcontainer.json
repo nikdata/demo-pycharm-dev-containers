@@ -1,11 +1,4 @@
 {
-    "name": "demo",
-    "build": "./dockerfile",
-    "context": "."
-    // "forwardPorts": [8888],
-    // "8888": {
-    //     "label": "Jupyter",
-    //     "requireLocalPort": true,
-    //     "onAutoForward": "ignore"
-    // }
+    "image": "mcr.microsoft.com/devcontainers/java:latest",
+    "name": "simple-devcontainer"
 }
