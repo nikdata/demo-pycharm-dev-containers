@@ -20,6 +20,8 @@ RUN apt-get update \
     wget \
     procps
 
+ENV PATH /usr/local/bin:$PATH
+
 # install python packages
 COPY packages.txt packages.txt
 RUN pip install -r packages.txt
