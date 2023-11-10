@@ -18,7 +18,6 @@ RUN apt-get update \
     gcc \
     gfortran \
     wget \
-    find \
     procps
 
 # install python packages
