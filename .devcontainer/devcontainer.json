@@ -1,4 +1,7 @@
 {
-    "build.dockerfile": "dockerfile",
-    "name": "simple-devcontainer"
+    // "build.dockerfile": "dockerfile",
+    "name": "simple-devcontainer",
+    "build": {
+        "dockerfile": "dockerfile"
+    }
 }
