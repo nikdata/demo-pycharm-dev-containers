@@ -1,5 +1,5 @@
 {
-    "name": "demo Pycharm Dev Container",
+    "name": "demo",
     "build": "./dockerfile",
     "context": "."
     // "forwardPorts": [8888],
