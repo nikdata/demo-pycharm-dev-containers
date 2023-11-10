@@ -17,7 +17,9 @@ RUN apt-get update \
     bzip2 \
     gcc \
     gfortran \
-    wget
+    wget \
+    find \
+    procps
 
 # install python packages
 COPY packages.txt packages.txt
